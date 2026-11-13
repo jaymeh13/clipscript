@@ -1,0 +1,12 @@
+# ClipScript demo: the video in the README
+@contact ClipScript
+
+them: [link https://x.com/wwayneee/status/2104801288634740919 "Wayne Fan on X: These videos are code, not screen recordings." assets/demo/tweet.jpg]
+me: whoa, that's cool
+me: just remade this from scratch
+them: so you can just do things?
+me: yeah
+me: [link https://github.com/jaymeh13/clipscript "jaymeh13/clipscript: Turn a plain-text chat script into an animated iMessage-style video" assets/demo/github-og.png]
+@pause 0.6
+@open https://github.com/jaymeh13/clipscript assets/demo/github.png #000000
+@pause 1.4

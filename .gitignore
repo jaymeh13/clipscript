@@ -6,5 +6,7 @@ out
 # Your own projects and images stay local; only the sample is published.
 projects/*
 !projects/Rain jacket demo.json
+!projects/ClipScript demo.txt
 public/assets/*
 !public/assets/sample-*
+!public/assets/demo/

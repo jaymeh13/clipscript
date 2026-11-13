@@ -2,24 +2,23 @@
 
 Write a chat as a plain-text script, get a square animated iMessage-style video. ClipScript renders a 1080×1080 MP4 or a GIF from one text file and one command.
 
-![A chat about buying a rain jacket, rendered by ClipScript](docs/demo.gif)
+![A chat with ClipScript that ends by opening its GitHub repo, rendered by ClipScript](docs/demo.gif)
 
-The clip above comes from this script:
+The clip above comes from this script, saved as `projects/ClipScript demo.txt`:
 
 ```
-@contact Juniper
+# ClipScript demo: the video in the README
+@contact ClipScript
 
-me: need a rain jacket for a trip next week
-them: On it. What's the budget?
-me: under $200, packable if possible
-them: Found one that fits
-@camera zoom 1.18
-them: [card "Arc Packable Shell" $180 assets/sample-jacket.svg]
+them: [link https://x.com/wwayneee/status/2104801288634740919 "Wayne Fan on X: These videos are code, not screen recordings." assets/demo/tweet.jpg]
+me: whoa, that's cool
+me: just remade this from scratch
+them: so you can just do things?
+me: yeah
+me: [link https://github.com/jaymeh13/clipscript "jaymeh13/clipscript: Turn a plain-text chat script into an animated iMessage-style video" assets/demo/github-og.png]
 @pause 0.6
-them: Packs into its own pocket and it's in your size. Want it?
-me: yes please
-@camera reset
-them: Ordered. Arrives Thursday.
+@open https://github.com/jaymeh13/clipscript assets/demo/github.png #000000
+@pause 1.4
 ```
 
 ## Quick start
@@ -30,14 +29,14 @@ You need Node.js 22 or newer.
 git clone https://github.com/jaymeh13/clipscript.git
 cd clipscript
 npm install
-npm run make -- "Rain jacket demo"
+npm run make -- "ClipScript demo"
 ```
 
 `make` checks the script, then writes three files to `out/`:
 
-- `rain-jacket-demo-sheet.png` — a contact sheet showing the scene after each beat, so you can review the whole video in one image
-- `rain-jacket-demo-1080.mp4`
-- `rain-jacket-demo-540.gif`
+- `clipscript-demo-sheet.png` — a contact sheet showing the scene after each beat, so you can review the whole video in one image
+- `clipscript-demo-1080.mp4`
+- `clipscript-demo-540.gif`
 
 The first render downloads a headless browser for Remotion, so it takes longer than later ones.
 
