@@ -27,7 +27,7 @@ them: Ordered. Arrives Thursday.
 You need Node.js 22 or newer.
 
 ```bash
-git clone <this repo>
+git clone https://github.com/jaymeh13/clipscript.git
 cd clipscript
 npm install
 npm run make -- "Rain jacket demo"
