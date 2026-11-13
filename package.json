@@ -1,0 +1,38 @@
+{
+  "name": "clipscript",
+  "private": true,
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "render": "tsx scripts/studio.ts render",
+    "still": "tsx scripts/studio.ts still",
+    "check": "tsx scripts/studio.ts check",
+    "capture": "tsx scripts/capture.ts",
+    "sheet": "tsx scripts/studio.ts sheet",
+    "make": "tsx scripts/studio.ts make"
+  },
+  "dependencies": {
+    "@remotion/player": "^4.0.543",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.543"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.543",
+    "@remotion/renderer": "^4.0.543",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "puppeteer-core": "^25.17.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}

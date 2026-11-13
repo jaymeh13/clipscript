@@ -1,0 +1,10 @@
+node_modules
+dist
+out
+.DS_Store
+
+# Your own projects and images stay local; only the sample is published.
+projects/*
+!projects/Rain jacket demo.json
+public/assets/*
+!public/assets/sample-*

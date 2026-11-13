@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <circle cx="40" cy="40" r="26" fill="#2C5F54"/>
+  <path d="M40 22c10 6 14 14 14 22-6 0-11-2-14-6-3 4-8 6-14 6 0-8 4-16 14-22Z" fill="#fff"/>
+  <text x="80" y="52" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#1B1B1D">juniper</text>
+</svg>

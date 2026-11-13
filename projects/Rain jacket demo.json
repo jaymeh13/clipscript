@@ -1,0 +1,17 @@
+{
+  "name": "Rain jacket demo",
+  "source": "# One beat per line. Edit and the preview updates.\n@contact Juniper\n\nme: need a rain jacket for a trip next week\nthem: On it. What's the budget?\nme: under $200, packable if possible\nthem: Found one that fits\n@camera zoom 1.18\nthem: [card \"Arc Packable Shell\" $180 assets/sample-jacket.svg]\n@pause 0.6\nthem: Packs into its own pocket and it's in your size. Want it?\nme: yes please\n@camera reset\nthem: Ordered. Arrives Thursday.\n",
+  "style": {
+    "theme": "light",
+    "background": "radial-gradient(120% 120% at 30% 20%, #F3F0EB 0%, #E7E3DD 60%, #DDD8D1 100%)",
+    "accent": "#1C99FE",
+    "frame": true,
+    "logo": {
+      "src": "assets/sample-logo.svg",
+      "x": 13,
+      "y": 7,
+      "size": 17,
+      "opacity": 1
+    }
+  }
+}
